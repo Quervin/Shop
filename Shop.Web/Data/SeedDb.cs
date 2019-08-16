@@ -63,7 +63,7 @@ namespace Shop.Web.Data
                 Name = name,
                 Price = this.random.Next(1000),
                 IsAvailabe = true,
-                Stock = this.random.Next(100)
+                 Stock = this.random.Next(100)
             });
         }
     }
